@@ -1,4 +1,4 @@
-Hide Shortcut Arrow Overlay:
+## Hide Shortcut Arrow Overlay:
 	open regedit
 	go to "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer"
 	create "Shell Icons"
@@ -6,7 +6,7 @@ Hide Shortcut Arrow Overlay:
 	double-click "29" and enter "%windir%\System32\shell32.dll,-50"
 	restart explorer
 
-Hide Shortcut UAC Overlay:
+## Hide Shortcut UAC Overlay:
 	open regedit
 	go to "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer"
 	create "Shell Icons"
